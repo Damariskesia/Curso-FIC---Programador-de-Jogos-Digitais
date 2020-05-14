@@ -1,0 +1,18 @@
+Continue avançando! Agora, utilizando a estrutura enquanto, construa um programa que receba uma quantidade indeterminada de duplas de 
+valores inteiros X e Y.
+Para cada par de valores X e Y, o programa escreverá uma mensagem que indicará se esses valores foram digitados em ordem crescente ou decrescente.
+Se os dois valores são iguais, o programa encerrará a execução.
+
+
+var x := leia_inteiro
+var y := leia_inteiro
+
+enquanto x <> y faça
+	se y > x entao
+    	escreva "crescente"
+     senao 
+     	escreva "decrescente"
+	fim
+    var x := leia_inteiro
+	var y := leia_inteiro
+fim
