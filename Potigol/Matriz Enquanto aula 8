@@ -1,0 +1,27 @@
+Utilizando a estrutura enquanto, construa um algoritmo que recebe 2 números inteiros (X e Y) e apresenta uma matriz X por Y.
+
+Por exemplo, para os inteiros 3 e 3, a matriz impressa é:
+
+1.1 1.2 1.3
+2.1 2.2 2.3
+3.1 3.2 3.3
+Obs.1: Há um espaço em branco ao final de cada linha da matriz.
+
+Obs.2: Há uma quebra de linha após a impressão do último termo da matriz.
+
+
+var x := leia_inteiro
+var y := leia_inteiro
+
+contador := 1
+enquanto contador <= x faça
+	contador2 := 1
+	enquanto contador2 <= y faça
+	imprima "{contador}.{contador2} "
+    se contador2 == y entao
+    escreva " "
+    fim
+    contador2 := contador2 + 1
+	fim 
+    contador := contador + 1
+fim
