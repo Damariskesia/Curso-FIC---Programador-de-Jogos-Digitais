@@ -1,0 +1,20 @@
+Utilizando a estrutura de repetição para, construa um algoritmo que calcula e, ao final, 
+imprime a soma de todos os números primos de 1 até o número lido.
+
+
+var aux := 0
+var num := leia_inteiro
+
+para i de 1 ate num passo 1 faça
+	var divisor := 0
+    para j de 1 ate  i passo 1 faça
+        se i % j == 0 entao
+            divisor := divisor + 1
+        fim
+
+    fim
+       se divisor == 2 entao
+            aux := aux + i
+        fim
+ fim
+imprima "{aux}"
