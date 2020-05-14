@@ -1,0 +1,17 @@
+Construa um algoritmo utilizando a estrutura de decisão escolha que deverá receber o número do mês e, então, responder "Mês com 31 dias", "Mês com 30 dias" ou "Mês com 28 dias".
+
+Parece fácil, não é mesmo? Mas o desafio consiste em utilizar no máximo 4 opções caso na estrutura de decisão escolha, dentre as quais uma deverá ser a opção 'caso_' que informará que o mês indicado é inválido, semelhantemente ao exemplo apresentado.
+
+Se mês com 31 dias, imprima a mensagem: "Mês com 31 dias".
+Se mês com 30 dias, imprima a mensagem: "Mês com 30 dias".
+Se mês com 28 dias, imprima a mensagem: "Mês com 28 dias".
+Se mês inválido, imprima a mensagem: "Mês inválido".
+
+
+var x := leia_inteiro
+escolha x
+caso 1,3,5,7,8,10,12 => imprima "Mês com 31 dias"
+caso 4,6,9,11 => imprima "Mês com 30 dias"
+caso 2 => imprima "Mês com 28 dias"
+caso_   => imprima "Mês inválido"
+fim
