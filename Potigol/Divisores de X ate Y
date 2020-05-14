@@ -1,0 +1,17 @@
+Construa um algoritmo que receba dois números X e Y e que apresenta todos os divisores de Y a partir do valor X.
+
+Exemplo 1: se os números fornecidos foram 2 e 16, o programa imprimirá, um abaixo do outro (um por linha), os números: 2, 4 e 8.
+
+Exemplo 2: se os números fornecidos foram 5 e 25, o programa imprimirá, um abaixo do outro (um por linha), o número: 5.
+
+
+var x := leia_inteiro
+var y := leia_inteiro
+
+enquanto x < y faça
+	
+se y mod x == 0 entao
+escreva x
+fim
+x := x + 1
+fim
