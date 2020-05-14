@@ -1,0 +1,22 @@
+onstrua um programa que receba um número inteiro e que verifique se ele é um número perfeito. 
+Caso o número seja perfeito,o programa deve imprimir "é um número perfeito".
+Caso contrário, a mensagem "não é um número perfeito" deve ser impressa.
+
+
+var x := leia_inteiro
+var i := 1
+var soma := 0
+
+enquanto i < x faça
+
+se x mod i == 0 entao
+soma := soma + i
+fim
+i := i + 1
+fim
+
+se soma == x entao
+imprima "é um número perfeito"
+senao 
+imprima "não é um número perfeito" 
+fim
