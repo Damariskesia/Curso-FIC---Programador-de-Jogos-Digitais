@@ -1,0 +1,18 @@
+escreva "Digite o primeiro número"
+var x := leia_numero
+
+enquanto x < 0.0 |ou| x > 10.0 faça
+escreva "Nota com valor inválido!"
+var x := leia_numero
+fim
+
+escreva "Digite o segundo Número"
+var y := leia_numero
+
+enquanto y < 0.0 |ou| y > 10.0 faça
+escreva "Nota com valor inválido!"
+var y := leia_numero
+fim
+
+media := (x+y)/2
+escreva media
