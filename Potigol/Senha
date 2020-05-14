@@ -1,0 +1,22 @@
+Agora, você irá implementar um programa que será responsável por verificar senhas de acesso.
+
+Implemente um algoritmo utilizando a estrutura enquanto, que irá receber uma quantidade indefinida de palavras, uma por vez, em que cada palavra irá representar uma tentativa de "senha de acesso".
+
+O seu programa deverá receber uma quantidade indefinida de palavras até que a senha correta (acertadamente) seja informada ou a palavra sair seja informada.
+
+Obs.1: Caso a senha correta acertadamente seja informada, o seu programa deve escrever Acesso concedido
+
+Obs.2: Caso o comando sair seja informado, o seu programa deve escrever Programa encerrado
+
+
+var senha := 0
+
+enquanto senha <> "sair" faça
+	var senha := leia_texto
+    se senha == "sair" entao
+    	escreva "Programa encerrado"
+     senaose senha == "acertadamente" entao
+     	escreva "Acesso concedido"
+         senha := "sair"
+     fim
+ fim
