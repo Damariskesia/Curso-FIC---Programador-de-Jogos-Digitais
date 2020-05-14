@@ -1,0 +1,8 @@
+var x := leia_inteiro
+var y := leia_inteiro
+var z := leia_inteiro
+se z>x |e| z<y entao
+escreva "Dentro do Intervalo entre {x} e {y}"
+senao
+escreva "Fora do Intervalo entre {x} e {y}"
+fim
