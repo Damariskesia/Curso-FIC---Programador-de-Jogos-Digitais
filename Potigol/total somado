@@ -1,0 +1,14 @@
+Utilizando a estrutura enquanto, faça um algoritmo que receberá uma quantidade indefinida de números inteiros e realizará a soma de todos eles.
+
+O seu algoritmo deverá encerrar quando a soma dos números recebidos por ele for maior do que 100.
+
+Ao final, o seu programa deverá apenas imprimir o total somado.
+
+var total := 0
+soma :=0
+
+enquanto soma <= 100 faça
+var total  := leia_inteiro
+soma := soma + total
+fim
+imprima "{soma}"
