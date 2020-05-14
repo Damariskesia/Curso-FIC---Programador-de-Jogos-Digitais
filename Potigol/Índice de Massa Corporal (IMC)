@@ -1,0 +1,23 @@
+escreva "Digite o peso"
+var peso := leia_numero
+
+escreva "Digite a altura"
+var altura := leia_numero
+
+var imc := peso/(altura*altura)
+
+se imc < 17 entao
+	imprima "Muito abaixo do peso"
+		senaose imc >= 17 |e| imc <= 18.49 entao
+			imprima "Abaixo do peso"
+		senaose imc >= 18.50 |e| imc <= 24.99 entao
+			imprima "Peso normal"
+		senaose imc >= 25.0 |e| imc <= 29.99 entao
+			imprima "Acima do peso"  
+		senaose imc >= 30.0 |e| imc <= 34.99 entao
+			imprima "Obesidade I"
+		senaose imc >= 35.0 |e| imc <= 39.99 entao
+			imprima "Obesidade II (severa)"
+		senaose imc>40.0
+			imprima "Obesidade III (mórbida)"
+fim
