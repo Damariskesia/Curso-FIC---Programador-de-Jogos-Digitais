@@ -1,0 +1,14 @@
+Construa um programa que leia um número inteiro e que apresenta todos os seus divisores a partir do número 1.
+
+Exemplo: se o número fornecido for 10, o programa imprimirá, um abaixo do outro (um por linha), os números: 1, 2 e 5.
+
+
+var x := leia_inteiro
+var i := 1
+
+enquanto i < x faça
+se x mod i == 0 entao
+escreva i
+fim
+i := i + 1
+fim
