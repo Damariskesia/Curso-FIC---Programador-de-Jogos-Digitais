@@ -1,0 +1,24 @@
+Utilizando a estrutura de repetição enquanto, construa um algoritmo que calcula e, ao final, 
+imprime a soma de todos os números primos de 1 até o número lido.
+
+
+var num := leia_inteiro
+var i := 1
+var aux := 0
+
+enquanto i <= num faça
+	var primo := 0
+    var j := 1
+	enquanto j <= i faça
+	    	se i % j == 0 entao
+    		primo := primo + 1
+    		fim
+            j := j + 1
+    fim
+    se primo == 2 entao
+    	aux := aux + i
+     fim
+    i := i + 1
+fim
+
+imprima "{aux}"
