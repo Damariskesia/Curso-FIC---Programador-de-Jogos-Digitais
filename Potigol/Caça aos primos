@@ -1,0 +1,22 @@
+Construa um programa que receba um número e que verifique se ele é primo.
+Se o número recebido pelo programa for primo, o algoritmo deve imprimir número é primo.
+Caso contrário, a mensagem será: número não é primo.
+
+
+var x := leia_inteiro
+var soma := 0
+var i := 1
+
+enquanto i < x faça
+
+se x % i == 0 entao
+soma := soma + 1
+fim
+i := i + 1
+fim
+
+se soma > 2 entao
+imprima "número não é primo"
+senao
+imprima "número é primo"
+fim
