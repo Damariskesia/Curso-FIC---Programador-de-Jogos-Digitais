@@ -1,0 +1,12 @@
+var x := 1
+numero := 0
+
+enquanto x <> 0 faça
+escreva "Digite o número desejado"
+var x := leia_inteiro
+se numero < x entao
+numero := x
+fim
+fim
+
+imprima "{numero}"
