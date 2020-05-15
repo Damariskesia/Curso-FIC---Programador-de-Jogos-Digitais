@@ -12,7 +12,10 @@ var x := leia_inteiro
 
 para i de 1 ate x passo 1 faça
 	para j de 1 ate x passo 1 faça
-    	imprima "* "
+    	imprima "*"
+        se j < x entao
+        	imprima " "
+           fim
      fim
-       	escreva " "
+       	escreva ""
 fim
