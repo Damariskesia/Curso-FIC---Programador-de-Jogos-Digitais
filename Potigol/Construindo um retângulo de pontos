@@ -1,0 +1,29 @@
+Utilizando o aninhamento de enquanto, crie um programa que recebe dois valores inteiros e desenha um retângulo de tamanho z (linhas) por w (colunas), utilizando o caractere *.
+
+Fique atento! Há apenas um espaço em branco entre os caracteres * de uma mesma linha.
+
+Veja o exemplo para uma entrada igual a 6 e 4.
+
+* * * *
+* * * *
+* * * *
+* * * *
+* * * *
+* * * *
+
+var linha := leia_inteiro
+var coluna := leia_inteiro
+
+var i := 0
+enquanto i < linha faça
+	j := 0
+	enquanto j < coluna faça
+    	imprima "*"
+        se j < coluna - 1 entao
+        imprima " "
+        fim
+        j := j + 1
+      fim
+      escreva ""
+      i := i + 1
+  fim
