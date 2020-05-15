@@ -1,0 +1,13 @@
+Durante o período natalino, você fica tão feliz, que tem vontade de gritar para todo mundo: "Feliz Natal!!".
+Por esse motivo, para externar toda essa felicidade, você deverá criar um programa que receberá o índice 'i' de felicidade e que 
+imprimirá a força de seu grito de Natal. A partir de seu índice de força 'i', será personalizada a mensagem "Feliz Natal!".
+Por exemplo: para o índice 10, a mensagem impressa é "Feliz Nataaaaaaaaaal!".
+Em outras palavras, a quantidade de 'a' após a letra 't' será igual ao seu índice de felicidade.
+
+var i := leia_inteiro
+
+imprima "Feliz Nat"
+para j de 1 ate i passo 1 faça
+imprima "a"
+fim
+imprima "l!"
