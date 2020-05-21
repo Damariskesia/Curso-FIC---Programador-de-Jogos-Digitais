@@ -7,7 +7,7 @@ package varglobal;
 
 /**
  *
- * @author Irês
+ * @author Damaris
  */
 public class VarGlobal {
     static int variavel = 10;
