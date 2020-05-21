@@ -2,3 +2,7 @@
 
 Programa Novos Caminhos da UFRN curso de Programador de Jogos Digitais
 Exercicios referentes as materias do curso.
+
+Professores:
+André Brito
+Isaac Franco
