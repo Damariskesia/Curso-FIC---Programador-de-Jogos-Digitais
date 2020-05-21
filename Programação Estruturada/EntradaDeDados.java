@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Irês
+ * @author Damaris
  */
 import java.util.Scanner;
 
