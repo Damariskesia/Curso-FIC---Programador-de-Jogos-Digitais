@@ -1,0 +1,30 @@
+Construa um algoritmo que receberá valores inteiros em quantidade suficiente para monta uma matriz 10x10. Ao final, o algoritmo escreverá 
+o menor valor lido e os índices da linha e coluna em que se encontra esse valor.
+
+A resposta de saída de seu algoritmo será no formato abaixo, onde n é o número encontrado e j e k são os índices de linha e coluna, 
+respectivamente.
+
+n está na linha j e coluna k
+
+----------------------------------------------------------------------------------
+var m := matriz[10,10]
+		
+para i de 0 ate 9 faça
+	para j de 0 ate 9 faça
+    	m[i][j] := leia_inteiro
+     fim
+fim
+
+var menor := m[0][0]
+
+para i de 0 ate 9 faça
+	para j de 0 ate 9 faça
+    	se menor > m[i][j] entao
+        	menor := m[i][j]
+         	var k := i
+            var l := j
+         fim
+      fim
+ fim
+ 
+ escreva "{menor} está na linha {k} e coluna {l}"
