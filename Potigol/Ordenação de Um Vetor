@@ -1,0 +1,30 @@
+Construa um algoritmo que receberá 100 números inteiros. Utilizando apenas um único vetor, o seu algoritmo deverá ordenar os valores lidos
+em ordem crescente. Ao final, o programa deverá realizar a impressão dos números ordenados (um por linha).
+
+---------------------------------------------------------------------------------------------------------------------
+
+var numeros := vetor[100]
+var min := 0 
+var aux := 0
+
+para i de 0 ate 99 faça
+	numeros[i] := leia_inteiro
+fim
+    	
+para i de 0 ate 98 faça
+	min := i
+    para j de i+1 ate 99 faça
+        se numeros[j] < numeros[min] entao
+         	min := j
+          fim
+     fim
+     se numeros[i] <> numeros[min] entao
+     	aux := numeros[i]
+        numeros[i] := numeros[min]
+        numeros[min] := aux
+      fim
+fim
+
+para i de 0 ate 99 faça
+	escreva numeros[i]
+fim
