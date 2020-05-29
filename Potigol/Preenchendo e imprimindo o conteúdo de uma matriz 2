@@ -1,0 +1,45 @@
+Construa um algoritmo que receberá os elementos para preencher uma matriz de 5 linhas e 10 colunas. 
+O preenchimento da matriz ocorrerá da esquerda para a direita, de cima para baixo.
+
+Após preencher toda a matriz, o seu algoritmo deverá imprimi-la no formato de 5 linhas e 10 colunas.
+Os números de uma mesma linha devem ser separados por um único espaço em branco entre eles.
+
+Em seguida, você deverá imprimir novamente a mesma matriz, no entanto, deverá invertê-la e realizar a impressão no formato de 10 linhas e
+5 colunas. Para isso, você precisará considerar que cada linha será uma coluna e que cada coluna será uma linha. 
+Lembre-se de que os números de uma mesma coluna (que agora serão impressos como linhas) devem ser separados por um único espaço em branco 
+entre eles.
+
+Obs.: Há uma linha em branco após cada matriz.
+
+------------------------------------------------------------------------------------------------------------------
+var m := matriz[5,10]
+
+para i de 0 ate 4 passo 1 faça
+	para j de 0 ate 9 passo 1 faça
+    	m[i][j] := leia_inteiro
+      fim
+fim
+
+para i de 0 ate 4 passo 1 faça
+	para j de 0 ate 9 passo 1 faça
+    	imprima m[i][j]
+        se j < 9 entao
+        	imprima " "
+         fim
+        se j == 9 entao
+        escreva ""
+        fim
+    fim
+fim
+
+escreva ""
+
+para i de 0 ate 9 passo 1 faça
+    para j de 0 ate 4 passo 1 faça
+         imprima m[j][i] 
+         se j < 4 entao
+         imprima " "
+         fim
+     fim
+     escreva ""
+fim
