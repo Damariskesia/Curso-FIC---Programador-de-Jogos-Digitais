@@ -1,0 +1,47 @@
+Construa um algoritmo que receberá os elementos para preencher uma matriz de 5 linhas e 10 colunas. 
+O preenchimento da matriz ocorrerá da esquerda para a direita, de cima para baixo.
+
+Após preencher toda a matriz, o seu algoritmo receberá um número inteiro entre 1 e 10 e que indicará qual coluna deverá ter os valores dos
+seus elementos somados.
+
+Ao final o seu algoritmo deverá apresentar a matriz no formato de 5 linhas e 10 colunas.Os números de uma mesma linha devem ser separados 
+por um único espaço em branco entre eles. E, logo abaixo da matriz, acrescente uma linha em branco para, logo em seguida, escrever o valor
+da soma dos elementos presentes na coluna indicada.
+
+-------------------------------------------------------------------------------------------------
+var m := matriz[5,10]
+var soma := 0
+
+para i de 0 ate 4 passo 1 faça
+	para j de 0 ate 9 passo 1 faça
+    	m[i][j] := leia_inteiro
+      fim
+fim
+
+var x := leia_inteiro
+
+
+para i de 0 ate 4 passo 1 faça
+	para j de 0 ate 9 passo 1 faça
+    	se x-1 == j entao
+        	
+        	soma := soma + m[i][j]
+            
+     	fim
+    fim
+fim
+
+para i de 0 ate 4 passo 1 faça
+	para j de 0 ate 9 passo 1 faça
+    	imprima m[i][j]
+        se j < 9 entao
+        	imprima " "
+         fim
+        se j == 9 entao
+        escreva ""
+        fim
+    fim
+fim
+
+escreva ""
+escreva soma
