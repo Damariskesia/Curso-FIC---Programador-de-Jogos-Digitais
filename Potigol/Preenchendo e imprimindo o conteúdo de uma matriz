@@ -1,0 +1,28 @@
+Construa um algoritmo que receberá os elementos para preencher uma matriz de 5 linhas e 10 colunas. 
+O preenchimento da matriz ocorrerá da esquerda para a direita, de cima para baixo.
+
+Após preencher toda a matriz, o seu algoritmo deverá escreve-la no formato de 5 linhas e 10 colunas.
+Os números inteiros de uma mesma linha devem ser separados por um único espaço em branco entre eles.
+
+Obs.: Há uma linha em branco após a impressão de toda a matriz.
+
+-------------------------------------------------------------------------------------------------------------
+var m := matriz[5,10]
+
+para i de 0 ate 4 passo 1 faça
+	para j de 0 ate 9 passo 1 faça
+    	m[i][j] := leia_inteiro
+      fim
+fim
+
+para i de 0 ate 4 passo 1 faça
+	para j de 0 ate 9 passo 1 faça
+    	imprima m[i][j]
+        se j < 9 entao
+        	imprima " "
+         fim
+        se j == 9 entao
+        escreva ""
+        fim
+    fim
+fim
