@@ -1,0 +1,22 @@
+//Construa um algoritmo que receberá 30 valores inteiros.
+
+Ao final, seu algoritmo devá apresentar os números pares em uma linha e na linha seguinte os números ímpares, na ordem em que foram lidos.
+
+
+var x := vetor[30]
+
+para i de 0 ate 29 faça
+	x[i] := leia_inteiro
+fim
+
+para i de 0 ate 29 faça
+      se x[i] mod 2 == 0 entao
+          imprima "{x[i]}, "
+      fim
+fim
+escreva ""
+para i de 0 ate 29 faça
+      se x[i] mod 2 <> 0 entao
+          imprima "{x[i]}, "
+      fim
+fim
