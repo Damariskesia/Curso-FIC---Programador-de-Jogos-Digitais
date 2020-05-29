@@ -1,0 +1,22 @@
+Construa uma função com o nome funcaoMaior que receba 3 números inteiros e retorna o maior valor entre eles.
+
+Caso os números sejam iguais, sua função deverá retornar o valor 0 (zero).
+
+Obs.: Sua função não deverá utilizar os comandos escreva ou imprima, apenas retornar o valor.
+
+------------------------------------------------------------------------------
+funcaoMaior(x:inteiro, y:inteiro, z:inteiro)
+var d := 0
+	
+	se x > y |e| x > z entao
+    	d := x
+     senaose y > z |e| y > x entao
+     	d := y
+      senaose z > x |e| z>y entao
+      	d := z
+      senao
+      	d := 0
+       fim
+       
+       retorne d
+fim
