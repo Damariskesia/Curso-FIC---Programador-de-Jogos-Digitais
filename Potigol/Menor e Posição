@@ -1,0 +1,43 @@
+Construa um algoritmo que receberá 100 valores inteiros. 
+Ao final, o algoritmo irá imprimir o menor valor recebido.
+O índice em que o menor valor está armazenado. 
+Por último, os valores armazenados nas posições imediatamente anterior e posterior ao menor elemento encontrado.
+Obedeça o seguinte formato para apresentar as informações:
+
+Menor valor recebido: 10
+Índice do menor valor: 19
+Valor armazenado na posição anterior [18]: 12 
+Valor armazenado na posição posterior [20]:
+
+Caso o menor valor esteja na primeira posição, seu algoritmo não deve imprimir a linha correspondente ao elemente anterior e se estiver
+na última posição, não deve imprimir o elemento posterior.
+
+---------------------------------------------------------------------------------
+var x := vetor[100]
+var menor := 0
+
+para i de 0 ate 99 faça
+	x[i] := leia_inteiro
+fim
+
+menor := x[0]
+
+para i de 0 ate 99 faça
+    se x[i] <= menor entao
+    	menor := x[i]
+        var posi := i
+        var ant := x[i-1]
+        var post := x[i+1]
+     fim     
+fim
+
+escreva "Menor valor recebido: {menor}"
+escreva "Índice do menor valor: {posi}"
+
+se posi > 0 entao
+escreva "Valor armazenado na posição anterior [{posi - 1}]: {ant}"
+fim
+
+se posi < 99 entao
+escreva "Valor armazenado na posição posterior [{posi + 1}]: {post}"
+fim
