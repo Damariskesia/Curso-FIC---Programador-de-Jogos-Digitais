@@ -1,0 +1,12 @@
+//onstrua um algoritmo que receberá 10 valores inteiros e escreva, um abaixo do outro, os valores na ordem inversa em que foram lidos,
+//ou seja, o último valor lido será o primeiro valor impresso.
+
+var x := vetor[10]
+
+para i de 0 ate 9 faça
+	x[i] := leia_inteiro
+fim
+
+para i de 9 ate 0 passo -1 faça
+	escreva x[i]
+fim
